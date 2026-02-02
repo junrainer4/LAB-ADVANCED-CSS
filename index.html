@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart - Big Weekend Sale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="cart-icon">🛒</span>
+            <span>TechMart</span>
+        </div>
+        <div class="nav-buttons">
+            <button class="login-btn">Login</button>
+            <button class="cart-btn">
+                🛒 Cart
+                <span class="cart-badge">4</span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero-filter-wrapper">
+            <div class="hero">
+                <h1>Big <span class="highlight">Weekend Sale</span> on Gadgets</h1>
+                <p>Up to 40% off on selected laptops, headphones, and accessories. Limited stocks only.</p>
+                <button class="shop-btn">Shop Deals</button>
+            </div>
+
+            <div class="filter-section">
+                <h2>Filter by</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Laptops</button>
+                    <button class="filter-btn">Headphones</button>
+                    <button class="filter-btn">Accessories</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-section">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <div class="product-card" data-category="accessories">
+                    <span class="product-badge">Sale</span>
+                    <div class="product-category">Keyboard</div>
+                    <div class="product-image">
+                        <img src="products/keyboard.jpg" alt="Mechanical Gaming Keyboard RGB">
+                    </div>
+                    <h3 class="product-title">RGB Mechanical Gaming Keyboard</h3>
+                    <p class="product-specs">Mechanical Switches · Full RGB Backlight · Anti-Ghosting</p>
+                    <div class="product-price">
+                        <span class="current-price">₱3,499</span>
+                        <span class="original-price">₱4,999</span>
+                    </div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(4.7)</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-category="accessories" data-rating="4.8">
+                    <div class="product-category">Mouse</div>
+                    <div class="product-image">
+                        <img src="products/mouse.jpg" alt="Wireless Gaming Mouse Pro">
+                    </div>
+                    <h3 class="product-title">RGB Gaming Mouse with LED</h3>
+                    <p class="product-specs">High Precision · RGB Lighting · Programmable Buttons</p>
+                    <div class="product-price">
+                        <span class="current-price">₱2,499</span>
+                    </div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(4.8)</span>
+                    </div>
+                    <button class="add-to-cart-btn added">✓ Added</button>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-category">GPU</div>
+                    <div class="product-image">
+                        <img src="products/rtx.jpg" alt="RTX 4070 Graphics Card">
+                    </div>
+                    <h3 class="product-title">NVIDIA RTX 2080 Graphics Card</h3>
+                    <p class="product-specs">8GB GDDR6 · Ray Tracing · Dual Fan Cooling</p>
+                    <div class="product-price">
+                        <span class="current-price">₱34,990</span>
+                    </div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(4.3)</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <span class="product-badge low-stock">Low Stock</span>
+                    <div class="product-category">Storage</div>
+                    <div class="product-image">
+                        <img src="products/ssd.jpg" alt="1TB NVMe SSD Gen 4">
+                    </div>
+                    <h3 class="product-title">Samsung 980 PRO 1TB NVMe SSD</h3>
+                    <p class="product-specs">PCIe 4.0 · 7000 MB/s Read · M.2 2280</p>
+                    <div class="product-price">
+                        <span class="current-price">₱5,499</span>
+                    </div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(4.4)</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <p class="stock-warning">Hurry! Few left in stock.</p>
+                </div>
+
+                <div class="product-card" data-category="headphones">
+                    <span class="product-badge">Sale</span>
+                    <div class="product-category">Headphone</div>
+                    <div class="product-image">
+                        <img src="products/headphone.jpg" alt="7.1 Surround Gaming Headset">
+                    </div>
+                    <h3 class="product-title">SteelSeries Gaming Headset</h3>
+                    <p class="product-specs">Premium Audio · Retractable Mic · Comfortable Cushions</p>
+                    <div class="product-price">
+                        <span class="current-price">₱2,799</span>
+                        <span class="original-price">₱3,999</span>
+                    </div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(4.6)</span>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
